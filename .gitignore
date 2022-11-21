@@ -10,3 +10,6 @@ data/*
 
 # Exlude the metadata file prefixing it with an exclamation mark
 !data/metadata.txt
+
+#DS_store
+.DS_Store
