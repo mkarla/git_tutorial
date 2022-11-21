@@ -6,7 +6,7 @@ intermediate/
 *.tmp
 
 # Ignore all files in the data/ directory
-daga/*
+data/*
 
 # Exlude the metadata file prefixing it with an exclamation mark
 !data/metadata.txt
