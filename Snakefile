@@ -148,7 +148,7 @@ rule align_to_genome:
     version: "1.0"
     shell:
         """
-        bowtie2 --very-sensitive-local -x $indexBase -U {input.fastq} > {output} 2> {log}
+        bowtie2 --trim5 5 --very-sensitive-local -x $indexBase -U {input.fastq} > {output} 2> {log}
         """
 
 rule sort_bam:
